@@ -57,10 +57,10 @@ def cv2ImgAddText(img, text, left, top, text_color=(0, 0, 255)):
 
 
 def connect_to_sql():
-    conn = pymysql.connect(host='localhost',
-                           user='root',
-                           password='970922',
-                           db='mytest',
+    conn = pymysql.connect(host='1.12.222.135',
+                           user='class_1',
+                           password='t7fFdiJZt4zxyhix',
+                           db='class_1',
                            port=3306,
                            charset='utf8')
     cursor = conn.cursor()
